@@ -1,0 +1,50 @@
+
+run.sh is the script to invoke. It does the following
+
+1. Generate dictionary
+2. Generate TF-IDF
+3. Train model using tagged data and predict classification of untagged data
+4. Report count of Cyber Security articles and stock price for every day
+
+It needs 2 input parameters
+
+1. Input location on HDFS where the news articles are stored. The news articles for one day need to be one folder. This location must be readable by the user invoking the script
+
+Example: /user/gxj150630/sony
+
+drwxr-xr-x   - gxj150630 supergroup          0 2015-12-09 12:42 /user/gxj150630/sony/2014-11-01
+-rw-r--r--   1 gxj150630 supergroup       4811 2015-12-09 11:34 /user/gxj150630/sony/2014-11-01/article1
+-rw-r--r--   1 gxj150630 supergroup       1988 2015-12-09 11:34 /user/gxj150630/sony/2014-11-01/article10
+-rw-r--r--   1 gxj150630 supergroup       8032 2015-12-09 11:34 /user/gxj150630/sony/2014-11-01/article11
+-rw-r--r--   1 gxj150630 supergroup        650 2015-12-09 11:34 /user/gxj150630/sony/2014-11-01/article13
+-rw-r--r--   1 gxj150630 supergroup       3822 2015-12-09 11:34 /user/gxj150630/sony/2014-11-01/nyarticle1
+drwxr-xr-x   - gxj150630 supergroup          0 2015-12-09 12:42 /user/gxj150630/sony/2014-11-02
+-rw-r--r--   1 gxj150630 supergroup       1529 2015-12-09 11:34 /user/gxj150630/sony/2014-11-02/article10
+-rw-r--r--   1 gxj150630 supergroup       2060 2015-12-09 11:34 /user/gxj150630/sony/2014-11-02/article11
+-rw-r--r--   1 gxj150630 supergroup      15290 2015-12-09 11:34 /user/gxj150630/sony/2014-11-02/article14
+-rw-r--r--   1 gxj150630 supergroup       3804 2015-12-09 11:34 /user/gxj150630/sony/2014-11-02/article3
+-rw-r--r--   1 gxj150630 supergroup       6209 2015-12-09 11:34 /user/gxj150630/sony/2014-11-02/article30
+
+One can unzip the sony.zip file provided and copy the full directory to HDFS.
+
+
+2. Output location where it can store temporary and final output. This location must be writable by the user invoking the script
+
+Example
+========
+./run.sh -o /user/gxj150630/cyberattack -i /user/gxj150630/sony
+
+
+The final output file is written to local file system under nb_prediction/output
+
+unixscript_sample_log.txt contains the output from screen from a run
+
+Caution : HDFS and Spark tend to run into failures because of memory. The script is written to be idempotent. If it fails it can be run again, however there may be some cases where it is not able to recover from a failure. In such a case remove the output dir from HDFS and run again. One might need to remove the local nb_prediction directory too.
+
+
+There are two things that this script does not do
+
+1. Use the News/Search API to download news articles. There are various restrictions on downloading articles. Automating it completely was hard. We have provided a zip file containing the articles that can be copied to HDFS and used with the script.
+
+2. Study correlation between change in stock price and number of Cyber Security related articles. These tasks were done using tools like SAS and Excel and there was not much to automate there.
+

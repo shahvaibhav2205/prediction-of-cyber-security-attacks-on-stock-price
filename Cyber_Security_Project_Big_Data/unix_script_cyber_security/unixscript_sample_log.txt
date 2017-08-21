@@ -1,0 +1,1232 @@
+{cs6360:~/cs6350/project/renameMe/unixscript} ./run.sh -o /user/gxj150630/cyberattack -i /user/gxj150630/sony
+
+Output Dir = /user/gxj150630/cyberattack
+
+
+Input Dir = /user/gxj150630/sony
+
+Found 3 items
+-rw-r--r--   1 gxj150630 supergroup      22532 2015-12-09 11:33 /user/gxj150630/sony/.DS_Store
+drwxr-xr-x   - gxj150630 supergroup          0 2015-12-09 12:42 /user/gxj150630/sony/2014-11-01
+drwxr-xr-x   - gxj150630 supergroup          0 2015-12-09 12:42 /user/gxj150630/sony/2014-11-02
+HDFS Input Dir found
+
+HDFS Output Dir found
+
+Dictionary dir = /user/gxj150630/cyberattack/dictionary
+rm: `/user/gxj150630/cyberattack/dictionary': No such file or directory
+Dictionary.jar
+15/12/09 22:18:23 INFO client.RMProxy: Connecting to ResourceManager at cshadoop1.utdallas.edu/10.176.92.71:8032
+15/12/09 22:18:24 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+15/12/09 22:18:24 INFO input.FileInputFormat: Total input paths to process : 39
+15/12/09 22:18:24 INFO mapreduce.JobSubmitter: number of splits:39
+15/12/09 22:18:25 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1444046496659_11115
+15/12/09 22:18:25 INFO impl.YarnClientImpl: Submitted application application_1444046496659_11115
+15/12/09 22:18:25 INFO mapreduce.Job: The url to track the job: http://cshadoop1.utdallas.edu:8088/proxy/application_1444046496659_11115/
+15/12/09 22:18:25 INFO mapreduce.Job: Running job: job_1444046496659_11115
+15/12/09 22:18:30 INFO mapreduce.Job: Job job_1444046496659_11115 running in uber mode : false
+15/12/09 22:18:30 INFO mapreduce.Job:  map 0% reduce 0%
+15/12/09 22:18:34 INFO mapreduce.Job:  map 5% reduce 0%
+15/12/09 22:18:38 INFO mapreduce.Job:  map 8% reduce 0%
+15/12/09 22:18:39 INFO mapreduce.Job:  map 31% reduce 0%
+15/12/09 22:18:40 INFO mapreduce.Job:  map 79% reduce 0%
+15/12/09 22:18:45 INFO mapreduce.Job:  map 82% reduce 0%
+15/12/09 22:18:46 INFO mapreduce.Job:  map 100% reduce 26%
+15/12/09 22:18:47 INFO mapreduce.Job:  map 100% reduce 100%
+15/12/09 22:18:48 INFO mapreduce.Job: Job job_1444046496659_11115 completed successfully
+15/12/09 22:18:48 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=261352
+		FILE: Number of bytes written=4259026
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=145835
+		HDFS: Number of bytes written=44829
+		HDFS: Number of read operations=120
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters
+		Launched map tasks=39
+		Launched reduce tasks=1
+		Data-local map tasks=38
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=318359
+		Total time spent by all reduces in occupied slots (ms)=9844
+		Total time spent by all map tasks (ms)=318359
+		Total time spent by all reduce tasks (ms)=9844
+		Total vcore-seconds taken by all map tasks=318359
+		Total vcore-seconds taken by all reduce tasks=9844
+		Total megabyte-seconds taken by all map tasks=325999616
+		Total megabyte-seconds taken by all reduce tasks=10080256
+	Map-Reduce Framework
+		Map input records=39
+		Map output records=20450
+		Map output bytes=220446
+		Map output materialized bytes=261580
+		Input split bytes=4748
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=4710
+		Reduce shuffle bytes=261580
+		Reduce input records=20450
+		Reduce output records=4710
+		Spilled Records=40900
+		Shuffled Maps =39
+		Failed Shuffles=0
+		Merged Map outputs=39
+		GC time elapsed (ms)=7931
+		CPU time spent (ms)=26670
+		Physical memory (bytes) snapshot=16558669824
+		Virtual memory (bytes) snapshot=49080500224
+		Total committed heap usage (bytes)=20362821632
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters
+		Bytes Read=141087
+	File Output Format Counters
+		Bytes Written=44829
+readingArticle.class
+Creating input for classification...
+added data of file : sony_test/._2014-10-24
+added data of file : sony_test/2014-10-24/._article001
+added data of file : sony_test/2014-10-24/article001
+0
+added data of file : sony_test/2014-10-24/._article002
+added data of file : sony_test/2014-10-24/article002
+1
+added data of file : sony_test/2014-10-24/._article003
+added data of file : sony_test/2014-10-24/article003
+2
+added data of file : sony_test/2014-10-24/._article004
+added data of file : sony_test/2014-10-24/article004
+3
+added data of file : sony_test/2014-10-24/._article005
+added data of file : sony_test/2014-10-24/article005
+4
+added data of file : sony_test/2014-10-24/._article006
+added data of file : sony_test/2014-10-24/article006
+5
+added data of file : sony_test/2014-10-24/._article007
+added data of file : sony_test/2014-10-24/article007
+6
+added data of file : sony_test/2014-10-24/._article009
+added data of file : sony_test/2014-10-24/article009
+7
+added data of file : sony_test/2014-10-24/._article010
+added data of file : sony_test/2014-10-24/article010
+8
+added data of file : sony_test/2014-10-24/._article011
+added data of file : sony_test/2014-10-24/article011
+9
+added data of file : sony_test/2014-10-24/._article012
+added data of file : sony_test/2014-10-24/article012
+10
+added data of file : sony_test/2014-10-24/._article013
+added data of file : sony_test/2014-10-24/article013
+11
+added data of file : sony_test/2014-10-24/._article014
+added data of file : sony_test/2014-10-24/article014
+12
+added data of file : sony_test/2014-10-24/._article015
+added data of file : sony_test/2014-10-24/article015
+13
+added data of file : sony_test/2014-10-24/._article016
+added data of file : sony_test/2014-10-24/article016
+14
+added data of file : sony_test/2014-10-24/._article017
+added data of file : sony_test/2014-10-24/article017
+15
+added data of file : sony_test/2014-10-24/._article018
+added data of file : sony_test/2014-10-24/article018
+16
+added data of file : sony_test/2014-10-24/._article019
+added data of file : sony_test/2014-10-24/article019
+17
+added data of file : sony_test/2014-10-24/._article021
+added data of file : sony_test/2014-10-24/article021
+added data of file : sony_test/2014-10-24/._article022
+added data of file : sony_test/2014-10-24/article022
+18
+added data of file : sony_test/2014-10-24/._article023
+added data of file : sony_test/2014-10-24/article023
+19
+added data of file : sony_test/2014-10-24/._article024
+added data of file : sony_test/2014-10-24/article024
+20
+added data of file : sony_test/2014-10-24/._article025
+added data of file : sony_test/2014-10-24/article025
+21
+added data of file : sony_test/2014-10-24/._article026
+added data of file : sony_test/2014-10-24/article026
+22
+added data of file : sony_test/2014-10-24/._article027
+added data of file : sony_test/2014-10-24/article027
+23
+added data of file : sony_test/2014-10-24/._article028
+added data of file : sony_test/2014-10-24/article028
+24
+added data of file : sony_test/2014-10-24/._article029
+added data of file : sony_test/2014-10-24/article029
+25
+added data of file : sony_test/2014-10-24/._article030
+added data of file : sony_test/2014-10-24/article030
+26
+added data of file : sony_test/2014-10-24/._article031
+added data of file : sony_test/2014-10-24/article031
+27
+added data of file : sony_test/2014-10-24/._article032
+added data of file : sony_test/2014-10-24/article032
+28
+added data of file : sony_test/2014-10-24/._article034
+added data of file : sony_test/2014-10-24/article034
+29
+added data of file : sony_test/2014-10-24/._article036
+added data of file : sony_test/2014-10-24/article036
+30
+added data of file : sony_test/2014-10-24/._article037
+added data of file : sony_test/2014-10-24/article037
+31
+added data of file : sony_test/2014-10-24/._article039
+added data of file : sony_test/2014-10-24/article039
+32
+added data of file : sony_test/2014-10-24/._article040
+added data of file : sony_test/2014-10-24/article040
+33
+added data of file : sony_test/2014-10-24/._article041
+added data of file : sony_test/2014-10-24/article041
+34
+added data of file : sony_test/2014-10-24/._article042
+added data of file : sony_test/2014-10-24/article042
+35
+added data of file : sony_test/2014-10-24/._article043
+added data of file : sony_test/2014-10-24/article043
+36
+added data of file : sony_test/2014-10-24/._article044
+added data of file : sony_test/2014-10-24/article044
+37
+added data of file : sony_test/2014-10-24/._article045
+added data of file : sony_test/2014-10-24/article045
+38
+added data of file : sony_test/2014-10-24/._article046
+added data of file : sony_test/2014-10-24/article046
+39
+added data of file : sony_test/2014-10-24/._article047
+added data of file : sony_test/2014-10-24/article047
+40
+added data of file : sony_test/2014-10-24/._article049
+added data of file : sony_test/2014-10-24/article049
+41
+added data of file : sony_test/2014-10-24/._article050
+added data of file : sony_test/2014-10-24/article050
+42
+added data of file : sony_test/2014-10-24/._article100
+added data of file : sony_test/2014-10-24/article100
+43
+added data of file : sony_test/2014-10-24/._article101
+added data of file : sony_test/2014-10-24/article101
+44
+added data of file : sony_test/2014-10-24/._article102
+added data of file : sony_test/2014-10-24/article102
+45
+added data of file : sony_test/2014-10-24/._article103
+added data of file : sony_test/2014-10-24/article103
+46
+added data of file : sony_test/2014-10-24/._article104
+added data of file : sony_test/2014-10-24/article104
+47
+added data of file : sony_test/2014-10-24/._article105
+added data of file : sony_test/2014-10-24/article105
+48
+added data of file : sony_test/2014-10-24/._article106
+added data of file : sony_test/2014-10-24/article106
+49
+added data of file : sony_test/2014-10-24/._article108
+added data of file : sony_test/2014-10-24/article108
+added data of file : sony_test/2014-10-24/._article110
+added data of file : sony_test/2014-10-24/article110
+50
+added data of file : sony_test/2014-10-24/._article51
+added data of file : sony_test/2014-10-24/article51
+51
+added data of file : sony_test/2014-10-24/._article52
+added data of file : sony_test/2014-10-24/article52
+52
+added data of file : sony_test/2014-10-24/._article53
+added data of file : sony_test/2014-10-24/article53
+53
+added data of file : sony_test/2014-10-24/._article54
+added data of file : sony_test/2014-10-24/article54
+54
+added data of file : sony_test/2014-10-24/._article55
+added data of file : sony_test/2014-10-24/article55
+55
+added data of file : sony_test/2014-10-24/._article56
+added data of file : sony_test/2014-10-24/article56
+56
+added data of file : sony_test/2014-10-24/._article57
+added data of file : sony_test/2014-10-24/article57
+57
+added data of file : sony_test/2014-10-24/._article58
+added data of file : sony_test/2014-10-24/article58
+58
+added data of file : sony_test/2014-10-24/._article59
+added data of file : sony_test/2014-10-24/article59
+59
+added data of file : sony_test/2014-10-24/._article60
+added data of file : sony_test/2014-10-24/article60
+60
+added data of file : sony_test/2014-10-24/._article61
+added data of file : sony_test/2014-10-24/article61
+61
+added data of file : sony_test/2014-10-24/._article62
+added data of file : sony_test/2014-10-24/article62
+62
+added data of file : sony_test/2014-10-24/._article63
+added data of file : sony_test/2014-10-24/article63
+63
+added data of file : sony_test/2014-10-24/._article65
+added data of file : sony_test/2014-10-24/article65
+64
+added data of file : sony_test/2014-10-24/._article66
+added data of file : sony_test/2014-10-24/article66
+65
+added data of file : sony_test/2014-10-24/._article67
+added data of file : sony_test/2014-10-24/article67
+66
+added data of file : sony_test/2014-10-24/._article68
+added data of file : sony_test/2014-10-24/article68
+67
+added data of file : sony_test/2014-10-24/._article69
+added data of file : sony_test/2014-10-24/article69
+68
+added data of file : sony_test/2014-10-24/._article70
+added data of file : sony_test/2014-10-24/article70
+69
+added data of file : sony_test/2014-10-24/._article71
+added data of file : sony_test/2014-10-24/article71
+70
+added data of file : sony_test/2014-10-24/._article72
+added data of file : sony_test/2014-10-24/article72
+71
+added data of file : sony_test/2014-10-24/._article73
+added data of file : sony_test/2014-10-24/article73
+72
+added data of file : sony_test/2014-10-24/._article74
+added data of file : sony_test/2014-10-24/article74
+73
+added data of file : sony_test/2014-10-24/._article75
+added data of file : sony_test/2014-10-24/article75
+74
+added data of file : sony_test/2014-10-24/._article76
+added data of file : sony_test/2014-10-24/article76
+75
+added data of file : sony_test/2014-10-24/._article77
+added data of file : sony_test/2014-10-24/article77
+76
+added data of file : sony_test/2014-10-24/._article78
+added data of file : sony_test/2014-10-24/article78
+77
+added data of file : sony_test/2014-10-24/._article79
+added data of file : sony_test/2014-10-24/article79
+78
+added data of file : sony_test/2014-10-24/._article80
+added data of file : sony_test/2014-10-24/article80
+79
+added data of file : sony_test/2014-10-24/._article81
+added data of file : sony_test/2014-10-24/article81
+80
+added data of file : sony_test/2014-10-24/._article82
+added data of file : sony_test/2014-10-24/article82
+81
+added data of file : sony_test/2014-10-24/._article83
+added data of file : sony_test/2014-10-24/article83
+82
+added data of file : sony_test/2014-10-24/._article84
+added data of file : sony_test/2014-10-24/article84
+83
+added data of file : sony_test/2014-10-24/._article85
+added data of file : sony_test/2014-10-24/article85
+84
+added data of file : sony_test/2014-10-24/._article86
+added data of file : sony_test/2014-10-24/article86
+85
+added data of file : sony_test/2014-10-24/._article87
+added data of file : sony_test/2014-10-24/article87
+86
+added data of file : sony_test/2014-10-24/._article88
+added data of file : sony_test/2014-10-24/article88
+87
+added data of file : sony_test/2014-10-24/._article89
+added data of file : sony_test/2014-10-24/article89
+88
+added data of file : sony_test/2014-10-24/._article90
+added data of file : sony_test/2014-10-24/article90
+89
+added data of file : sony_test/2014-10-24/._article91
+added data of file : sony_test/2014-10-24/article91
+90
+added data of file : sony_test/2014-10-24/._article92
+added data of file : sony_test/2014-10-24/article92
+91
+added data of file : sony_test/2014-10-24/._article93
+added data of file : sony_test/2014-10-24/article93
+92
+added data of file : sony_test/2014-10-24/._article94
+added data of file : sony_test/2014-10-24/article94
+93
+added data of file : sony_test/2014-10-24/._article95
+added data of file : sony_test/2014-10-24/article95
+94
+added data of file : sony_test/2014-10-24/._article96
+added data of file : sony_test/2014-10-24/article96
+95
+added data of file : sony_test/2014-10-24/._article97
+added data of file : sony_test/2014-10-24/article97
+96
+added data of file : sony_test/2014-10-24/._article98
+added data of file : sony_test/2014-10-24/article98
+97
+added data of file : sony_test/2014-10-24/._article99
+added data of file : sony_test/2014-10-24/article99
+98
+Creating input for classification...
+added data of file : articles/2014-11-01/article10
+added data of file : articles/2014-11-01/article1
+added data of file : articles/2014-11-01/article11
+added data of file : articles/2014-11-01/article12
+added data of file : articles/2014-11-01/article13
+added data of file : articles/2014-11-01/article16
+added data of file : articles/2014-11-01/article17
+added data of file : articles/2014-11-01/article18
+added data of file : articles/2014-11-01/article3
+added data of file : articles/2014-11-01/article30
+added data of file : articles/2014-11-01/article31
+added data of file : articles/2014-11-01/article4
+added data of file : articles/2014-11-01/article5
+added data of file : articles/2014-11-01/article6
+added data of file : articles/2014-11-01/article7
+added data of file : articles/2014-11-01/article8
+added data of file : articles/2014-11-01/article9
+added data of file : articles/2014-11-01/nyarticle1
+added data of file : articles/2014-11-02/article10
+added data of file : articles/2014-11-02/article11
+added data of file : articles/2014-11-02/article14
+added data of file : articles/2014-11-02/article15
+added data of file : articles/2014-11-02/article16
+added data of file : articles/2014-11-02/article17
+added data of file : articles/2014-11-02/article18
+added data of file : articles/2014-11-02/article19
+added data of file : articles/2014-11-02/article3
+added data of file : articles/2014-11-02/article30
+added data of file : articles/2014-11-02/article31
+added data of file : articles/2014-11-02/article4
+added data of file : articles/2014-11-02/article5
+added data of file : articles/2014-11-02/article6
+added data of file : articles/2014-11-02/article7
+added data of file : articles/2014-11-02/article8
+added data of file : articles/2014-11-02/article9
+added data of file : articles/2014-11-02/nyarticle1
+added data of file : articles/2014-11-02/nyarticle2
+added data of file : articles/2014-11-02/nyarticle3
+added data of file : articles/2014-11-02/nyarticle4
+input for classification ready!
+rm: `/user/gxj150630/cyberattack/vectors': No such file or directory
+rm: `/user/gxj150630/cyberattack/prediction/nb': No such file or directory
+15/12/09 22:19:22 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+15/12/09 22:19:23 INFO spark.SecurityManager: Changing view acls to: gxj150630
+15/12/09 22:19:23 INFO spark.SecurityManager: Changing modify acls to: gxj150630
+15/12/09 22:19:23 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(gxj150630); users with modify permissions: Set(gxj150630)
+15/12/09 22:19:23 INFO spark.HttpServer: Starting HTTP Server
+15/12/09 22:19:23 INFO server.Server: jetty-8.y.z-SNAPSHOT
+15/12/09 22:19:23 INFO server.AbstractConnector: Started SocketConnector@0.0.0.0:50052
+15/12/09 22:19:23 INFO util.Utils: Successfully started service 'HTTP class server' on port 50052.
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 1.4.1
+      /_/
+
+Using Scala version 2.10.4 (Java HotSpot(TM) 64-Bit Server VM, Java 1.7.0_60)
+Type in expressions to have them evaluated.
+Type :help for more information.
+15/12/09 22:19:31 INFO spark.SparkContext: Running Spark version 1.4.1
+15/12/09 22:19:31 INFO spark.SecurityManager: Changing view acls to: gxj150630
+15/12/09 22:19:31 INFO spark.SecurityManager: Changing modify acls to: gxj150630
+15/12/09 22:19:31 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(gxj150630); users with modify permissions: Set(gxj150630)
+15/12/09 22:19:32 INFO slf4j.Slf4jLogger: Slf4jLogger started
+15/12/09 22:19:32 INFO Remoting: Starting remoting
+15/12/09 22:19:32 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.176.92.90:41051]
+15/12/09 22:19:32 INFO util.Utils: Successfully started service 'sparkDriver' on port 41051.
+15/12/09 22:19:32 INFO spark.SparkEnv: Registering MapOutputTracker
+15/12/09 22:19:32 INFO spark.SparkEnv: Registering BlockManagerMaster
+15/12/09 22:19:32 INFO storage.DiskBlockManager: Created local directory at /tmp/spark-f3e24126-81c8-4ce8-bfea-d2ef4b2ce27e/blockmgr-555234c9-39e5-48b0-bfb7-5cafa0a69aa8
+15/12/09 22:19:32 INFO storage.MemoryStore: MemoryStore started with capacity 8.3 GB
+15/12/09 22:19:32 INFO spark.HttpFileServer: HTTP File server directory is /tmp/spark-f3e24126-81c8-4ce8-bfea-d2ef4b2ce27e/httpd-6bf738b0-34d5-4377-b787-47987133c433
+15/12/09 22:19:32 INFO spark.HttpServer: Starting HTTP Server
+15/12/09 22:19:32 INFO server.Server: jetty-8.y.z-SNAPSHOT
+15/12/09 22:19:32 INFO server.AbstractConnector: Started SocketConnector@0.0.0.0:33853
+15/12/09 22:19:32 INFO util.Utils: Successfully started service 'HTTP file server' on port 33853.
+15/12/09 22:19:32 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+15/12/09 22:19:33 INFO server.Server: jetty-8.y.z-SNAPSHOT
+15/12/09 22:19:33 WARN component.AbstractLifeCycle: FAILED SelectChannelConnector@0.0.0.0:4040: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:228)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1991)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1982)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:238)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:117)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:448)
+	at org.apache.spark.repl.SparkILoop.createSparkContext(SparkILoop.scala:1017)
+	at $line3.$read$$iwC$$iwC.<init>(<console>:9)
+	at $line3.$read$$iwC.<init>(<console>:18)
+	at $line3.$read.<init>(<console>:20)
+	at $line3.$read$.<init>(<console>:24)
+	at $line3.$read$.<clinit>(<console>)
+	at $line3.$eval$.<init>(<console>:7)
+	at $line3.$eval$.<clinit>(<console>)
+	at $line3.$eval.$print(<console>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.repl.SparkIMain$ReadEvalPrint.call(SparkIMain.scala:1065)
+	at org.apache.spark.repl.SparkIMain$Request.loadAndRun(SparkIMain.scala:1338)
+	at org.apache.spark.repl.SparkIMain.loadAndRunReq$1(SparkIMain.scala:840)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:871)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:819)
+	at org.apache.spark.repl.SparkILoop.reallyInterpret$1(SparkILoop.scala:857)
+	at org.apache.spark.repl.SparkILoop.interpretStartingWith(SparkILoop.scala:902)
+	at org.apache.spark.repl.SparkILoop.command(SparkILoop.scala:814)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:123)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkIMain.beQuietDuring(SparkIMain.scala:324)
+	at org.apache.spark.repl.SparkILoopInit$class.initializeSpark(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkILoop.initializeSpark(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1$$anonfun$apply$mcZ$sp$5.apply$mcV$sp(SparkILoop.scala:974)
+	at org.apache.spark.repl.SparkILoopInit$class.runThunks(SparkILoopInit.scala:157)
+	at org.apache.spark.repl.SparkILoop.runThunks(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoopInit$class.postInitialization(SparkILoopInit.scala:106)
+	at org.apache.spark.repl.SparkILoop.postInitialization(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply$mcZ$sp(SparkILoop.scala:991)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at scala.tools.nsc.util.ScalaClassLoader$.savingContextLoader(ScalaClassLoader.scala:135)
+	at org.apache.spark.repl.SparkILoop.org$apache$spark$repl$SparkILoop$$process(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop.process(SparkILoop.scala:1059)
+	at org.apache.spark.repl.Main$.main(Main.scala:31)
+	at org.apache.spark.repl.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:665)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:170)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:193)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:112)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+15/12/09 22:19:33 WARN component.AbstractLifeCycle: FAILED org.spark-project.jetty.server.Server@6915ecdd: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:228)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1991)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1982)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:238)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:117)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:448)
+	at org.apache.spark.repl.SparkILoop.createSparkContext(SparkILoop.scala:1017)
+	at $line3.$read$$iwC$$iwC.<init>(<console>:9)
+	at $line3.$read$$iwC.<init>(<console>:18)
+	at $line3.$read.<init>(<console>:20)
+	at $line3.$read$.<init>(<console>:24)
+	at $line3.$read$.<clinit>(<console>)
+	at $line3.$eval$.<init>(<console>:7)
+	at $line3.$eval$.<clinit>(<console>)
+	at $line3.$eval.$print(<console>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.repl.SparkIMain$ReadEvalPrint.call(SparkIMain.scala:1065)
+	at org.apache.spark.repl.SparkIMain$Request.loadAndRun(SparkIMain.scala:1338)
+	at org.apache.spark.repl.SparkIMain.loadAndRunReq$1(SparkIMain.scala:840)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:871)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:819)
+	at org.apache.spark.repl.SparkILoop.reallyInterpret$1(SparkILoop.scala:857)
+	at org.apache.spark.repl.SparkILoop.interpretStartingWith(SparkILoop.scala:902)
+	at org.apache.spark.repl.SparkILoop.command(SparkILoop.scala:814)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:123)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkIMain.beQuietDuring(SparkIMain.scala:324)
+	at org.apache.spark.repl.SparkILoopInit$class.initializeSpark(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkILoop.initializeSpark(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1$$anonfun$apply$mcZ$sp$5.apply$mcV$sp(SparkILoop.scala:974)
+	at org.apache.spark.repl.SparkILoopInit$class.runThunks(SparkILoopInit.scala:157)
+	at org.apache.spark.repl.SparkILoop.runThunks(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoopInit$class.postInitialization(SparkILoopInit.scala:106)
+	at org.apache.spark.repl.SparkILoop.postInitialization(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply$mcZ$sp(SparkILoop.scala:991)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at scala.tools.nsc.util.ScalaClassLoader$.savingContextLoader(ScalaClassLoader.scala:135)
+	at org.apache.spark.repl.SparkILoop.org$apache$spark$repl$SparkILoop$$process(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop.process(SparkILoop.scala:1059)
+	at org.apache.spark.repl.Main$.main(Main.scala:31)
+	at org.apache.spark.repl.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:665)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:170)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:193)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:112)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/api,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/static,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs,null}
+15/12/09 22:19:33 WARN util.Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+15/12/09 22:19:33 INFO server.Server: jetty-8.y.z-SNAPSHOT
+15/12/09 22:19:33 WARN component.AbstractLifeCycle: FAILED SelectChannelConnector@0.0.0.0:4041: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:228)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1991)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1982)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:238)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:117)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:448)
+	at org.apache.spark.repl.SparkILoop.createSparkContext(SparkILoop.scala:1017)
+	at $line3.$read$$iwC$$iwC.<init>(<console>:9)
+	at $line3.$read$$iwC.<init>(<console>:18)
+	at $line3.$read.<init>(<console>:20)
+	at $line3.$read$.<init>(<console>:24)
+	at $line3.$read$.<clinit>(<console>)
+	at $line3.$eval$.<init>(<console>:7)
+	at $line3.$eval$.<clinit>(<console>)
+	at $line3.$eval.$print(<console>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.repl.SparkIMain$ReadEvalPrint.call(SparkIMain.scala:1065)
+	at org.apache.spark.repl.SparkIMain$Request.loadAndRun(SparkIMain.scala:1338)
+	at org.apache.spark.repl.SparkIMain.loadAndRunReq$1(SparkIMain.scala:840)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:871)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:819)
+	at org.apache.spark.repl.SparkILoop.reallyInterpret$1(SparkILoop.scala:857)
+	at org.apache.spark.repl.SparkILoop.interpretStartingWith(SparkILoop.scala:902)
+	at org.apache.spark.repl.SparkILoop.command(SparkILoop.scala:814)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:123)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkIMain.beQuietDuring(SparkIMain.scala:324)
+	at org.apache.spark.repl.SparkILoopInit$class.initializeSpark(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkILoop.initializeSpark(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1$$anonfun$apply$mcZ$sp$5.apply$mcV$sp(SparkILoop.scala:974)
+	at org.apache.spark.repl.SparkILoopInit$class.runThunks(SparkILoopInit.scala:157)
+	at org.apache.spark.repl.SparkILoop.runThunks(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoopInit$class.postInitialization(SparkILoopInit.scala:106)
+	at org.apache.spark.repl.SparkILoop.postInitialization(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply$mcZ$sp(SparkILoop.scala:991)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at scala.tools.nsc.util.ScalaClassLoader$.savingContextLoader(ScalaClassLoader.scala:135)
+	at org.apache.spark.repl.SparkILoop.org$apache$spark$repl$SparkILoop$$process(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop.process(SparkILoop.scala:1059)
+	at org.apache.spark.repl.Main$.main(Main.scala:31)
+	at org.apache.spark.repl.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:665)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:170)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:193)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:112)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+15/12/09 22:19:33 WARN component.AbstractLifeCycle: FAILED org.spark-project.jetty.server.Server@1cd1349e: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:228)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1991)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1982)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:238)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:117)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:448)
+	at org.apache.spark.repl.SparkILoop.createSparkContext(SparkILoop.scala:1017)
+	at $line3.$read$$iwC$$iwC.<init>(<console>:9)
+	at $line3.$read$$iwC.<init>(<console>:18)
+	at $line3.$read.<init>(<console>:20)
+	at $line3.$read$.<init>(<console>:24)
+	at $line3.$read$.<clinit>(<console>)
+	at $line3.$eval$.<init>(<console>:7)
+	at $line3.$eval$.<clinit>(<console>)
+	at $line3.$eval.$print(<console>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.repl.SparkIMain$ReadEvalPrint.call(SparkIMain.scala:1065)
+	at org.apache.spark.repl.SparkIMain$Request.loadAndRun(SparkIMain.scala:1338)
+	at org.apache.spark.repl.SparkIMain.loadAndRunReq$1(SparkIMain.scala:840)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:871)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:819)
+	at org.apache.spark.repl.SparkILoop.reallyInterpret$1(SparkILoop.scala:857)
+	at org.apache.spark.repl.SparkILoop.interpretStartingWith(SparkILoop.scala:902)
+	at org.apache.spark.repl.SparkILoop.command(SparkILoop.scala:814)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:123)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkIMain.beQuietDuring(SparkIMain.scala:324)
+	at org.apache.spark.repl.SparkILoopInit$class.initializeSpark(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkILoop.initializeSpark(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1$$anonfun$apply$mcZ$sp$5.apply$mcV$sp(SparkILoop.scala:974)
+	at org.apache.spark.repl.SparkILoopInit$class.runThunks(SparkILoopInit.scala:157)
+	at org.apache.spark.repl.SparkILoop.runThunks(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoopInit$class.postInitialization(SparkILoopInit.scala:106)
+	at org.apache.spark.repl.SparkILoop.postInitialization(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply$mcZ$sp(SparkILoop.scala:991)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at scala.tools.nsc.util.ScalaClassLoader$.savingContextLoader(ScalaClassLoader.scala:135)
+	at org.apache.spark.repl.SparkILoop.org$apache$spark$repl$SparkILoop$$process(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop.process(SparkILoop.scala:1059)
+	at org.apache.spark.repl.Main$.main(Main.scala:31)
+	at org.apache.spark.repl.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:665)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:170)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:193)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:112)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/api,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/static,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs,null}
+15/12/09 22:19:33 WARN util.Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+15/12/09 22:19:33 INFO server.Server: jetty-8.y.z-SNAPSHOT
+15/12/09 22:19:33 WARN component.AbstractLifeCycle: FAILED SelectChannelConnector@0.0.0.0:4042: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:228)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1991)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1982)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:238)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:117)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:448)
+	at org.apache.spark.repl.SparkILoop.createSparkContext(SparkILoop.scala:1017)
+	at $line3.$read$$iwC$$iwC.<init>(<console>:9)
+	at $line3.$read$$iwC.<init>(<console>:18)
+	at $line3.$read.<init>(<console>:20)
+	at $line3.$read$.<init>(<console>:24)
+	at $line3.$read$.<clinit>(<console>)
+	at $line3.$eval$.<init>(<console>:7)
+	at $line3.$eval$.<clinit>(<console>)
+	at $line3.$eval.$print(<console>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.repl.SparkIMain$ReadEvalPrint.call(SparkIMain.scala:1065)
+	at org.apache.spark.repl.SparkIMain$Request.loadAndRun(SparkIMain.scala:1338)
+	at org.apache.spark.repl.SparkIMain.loadAndRunReq$1(SparkIMain.scala:840)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:871)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:819)
+	at org.apache.spark.repl.SparkILoop.reallyInterpret$1(SparkILoop.scala:857)
+	at org.apache.spark.repl.SparkILoop.interpretStartingWith(SparkILoop.scala:902)
+	at org.apache.spark.repl.SparkILoop.command(SparkILoop.scala:814)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:123)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkIMain.beQuietDuring(SparkIMain.scala:324)
+	at org.apache.spark.repl.SparkILoopInit$class.initializeSpark(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkILoop.initializeSpark(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1$$anonfun$apply$mcZ$sp$5.apply$mcV$sp(SparkILoop.scala:974)
+	at org.apache.spark.repl.SparkILoopInit$class.runThunks(SparkILoopInit.scala:157)
+	at org.apache.spark.repl.SparkILoop.runThunks(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoopInit$class.postInitialization(SparkILoopInit.scala:106)
+	at org.apache.spark.repl.SparkILoop.postInitialization(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply$mcZ$sp(SparkILoop.scala:991)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at scala.tools.nsc.util.ScalaClassLoader$.savingContextLoader(ScalaClassLoader.scala:135)
+	at org.apache.spark.repl.SparkILoop.org$apache$spark$repl$SparkILoop$$process(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop.process(SparkILoop.scala:1059)
+	at org.apache.spark.repl.Main$.main(Main.scala:31)
+	at org.apache.spark.repl.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:665)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:170)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:193)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:112)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+15/12/09 22:19:33 WARN component.AbstractLifeCycle: FAILED org.spark-project.jetty.server.Server@4552e990: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:228)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:238)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1991)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1982)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:238)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:117)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at org.apache.spark.SparkContext$$anonfun$13.apply(SparkContext.scala:448)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:448)
+	at org.apache.spark.repl.SparkILoop.createSparkContext(SparkILoop.scala:1017)
+	at $line3.$read$$iwC$$iwC.<init>(<console>:9)
+	at $line3.$read$$iwC.<init>(<console>:18)
+	at $line3.$read.<init>(<console>:20)
+	at $line3.$read$.<init>(<console>:24)
+	at $line3.$read$.<clinit>(<console>)
+	at $line3.$eval$.<init>(<console>:7)
+	at $line3.$eval$.<clinit>(<console>)
+	at $line3.$eval.$print(<console>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.repl.SparkIMain$ReadEvalPrint.call(SparkIMain.scala:1065)
+	at org.apache.spark.repl.SparkIMain$Request.loadAndRun(SparkIMain.scala:1338)
+	at org.apache.spark.repl.SparkIMain.loadAndRunReq$1(SparkIMain.scala:840)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:871)
+	at org.apache.spark.repl.SparkIMain.interpret(SparkIMain.scala:819)
+	at org.apache.spark.repl.SparkILoop.reallyInterpret$1(SparkILoop.scala:857)
+	at org.apache.spark.repl.SparkILoop.interpretStartingWith(SparkILoop.scala:902)
+	at org.apache.spark.repl.SparkILoop.command(SparkILoop.scala:814)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:123)
+	at org.apache.spark.repl.SparkILoopInit$$anonfun$initializeSpark$1.apply(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkIMain.beQuietDuring(SparkIMain.scala:324)
+	at org.apache.spark.repl.SparkILoopInit$class.initializeSpark(SparkILoopInit.scala:122)
+	at org.apache.spark.repl.SparkILoop.initializeSpark(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1$$anonfun$apply$mcZ$sp$5.apply$mcV$sp(SparkILoop.scala:974)
+	at org.apache.spark.repl.SparkILoopInit$class.runThunks(SparkILoopInit.scala:157)
+	at org.apache.spark.repl.SparkILoop.runThunks(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoopInit$class.postInitialization(SparkILoopInit.scala:106)
+	at org.apache.spark.repl.SparkILoop.postInitialization(SparkILoop.scala:64)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply$mcZ$sp(SparkILoop.scala:991)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop$$anonfun$org$apache$spark$repl$SparkILoop$$process$1.apply(SparkILoop.scala:945)
+	at scala.tools.nsc.util.ScalaClassLoader$.savingContextLoader(ScalaClassLoader.scala:135)
+	at org.apache.spark.repl.SparkILoop.org$apache$spark$repl$SparkILoop$$process(SparkILoop.scala:945)
+	at org.apache.spark.repl.SparkILoop.process(SparkILoop.scala:1059)
+	at org.apache.spark.repl.Main$.main(Main.scala:31)
+	at org.apache.spark.repl.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:665)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:170)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:193)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:112)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/api,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/static,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+15/12/09 22:19:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs,null}
+15/12/09 22:19:33 WARN util.Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+15/12/09 22:19:33 INFO server.Server: jetty-8.y.z-SNAPSHOT
+15/12/09 22:19:33 INFO server.AbstractConnector: Started SelectChannelConnector@0.0.0.0:4043
+15/12/09 22:19:33 INFO util.Utils: Successfully started service 'SparkUI' on port 4043.
+15/12/09 22:19:33 INFO ui.SparkUI: Started SparkUI at http://10.176.92.90:4043
+15/12/09 22:19:33 INFO client.AppClient$ClientActor: Connecting to master akka.tcp://sparkMaster@cshadoop1.utdallas.edu:7077/user/Master...
+15/12/09 22:19:34 INFO cluster.SparkDeploySchedulerBackend: Connected to Spark cluster with app ID app-20151209221934-0118
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor added: app-20151209221934-0118/0 on worker-20151006103930-10.176.92.75-49833 (10.176.92.75:49833) with 4 cores
+15/12/09 22:19:34 INFO cluster.SparkDeploySchedulerBackend: Granted executor ID app-20151209221934-0118/0 on hostPort 10.176.92.75:49833 with 4 cores, 16.0 GB RAM
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor added: app-20151209221934-0118/1 on worker-20151006103940-10.176.92.72-60109 (10.176.92.72:60109) with 4 cores
+15/12/09 22:19:34 INFO cluster.SparkDeploySchedulerBackend: Granted executor ID app-20151209221934-0118/1 on hostPort 10.176.92.72:60109 with 4 cores, 16.0 GB RAM
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor added: app-20151209221934-0118/2 on worker-20151006103941-10.176.92.74-40213 (10.176.92.74:40213) with 4 cores
+15/12/09 22:19:34 INFO cluster.SparkDeploySchedulerBackend: Granted executor ID app-20151209221934-0118/2 on hostPort 10.176.92.74:40213 with 4 cores, 16.0 GB RAM
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor added: app-20151209221934-0118/3 on worker-20151006103940-10.176.92.78-49634 (10.176.92.78:49634) with 4 cores
+15/12/09 22:19:34 INFO cluster.SparkDeploySchedulerBackend: Granted executor ID app-20151209221934-0118/3 on hostPort 10.176.92.78:49634 with 4 cores, 16.0 GB RAM
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor added: app-20151209221934-0118/4 on worker-20151006103928-10.176.92.76-53193 (10.176.92.76:53193) with 4 cores
+15/12/09 22:19:34 INFO cluster.SparkDeploySchedulerBackend: Granted executor ID app-20151209221934-0118/4 on hostPort 10.176.92.76:53193 with 4 cores, 16.0 GB RAM
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor added: app-20151209221934-0118/5 on worker-20151006103941-10.176.92.77-47791 (10.176.92.77:47791) with 4 cores
+15/12/09 22:19:34 INFO cluster.SparkDeploySchedulerBackend: Granted executor ID app-20151209221934-0118/5 on hostPort 10.176.92.77:47791 with 4 cores, 16.0 GB RAM
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor added: app-20151209221934-0118/6 on worker-20151006103940-10.176.92.79-59139 (10.176.92.79:59139) with 4 cores
+15/12/09 22:19:34 INFO cluster.SparkDeploySchedulerBackend: Granted executor ID app-20151209221934-0118/6 on hostPort 10.176.92.79:59139 with 4 cores, 16.0 GB RAM
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor added: app-20151209221934-0118/7 on worker-20151006103939-10.176.92.73-35299 (10.176.92.73:35299) with 4 cores
+15/12/09 22:19:34 INFO cluster.SparkDeploySchedulerBackend: Granted executor ID app-20151209221934-0118/7 on hostPort 10.176.92.73:35299 with 4 cores, 16.0 GB RAM
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/0 is now LOADING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/3 is now LOADING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/2 is now LOADING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/1 is now LOADING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/6 is now LOADING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/7 is now LOADING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/5 is now LOADING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/4 is now LOADING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/0 is now RUNNING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/1 is now RUNNING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/2 is now RUNNING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/3 is now RUNNING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/4 is now RUNNING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/5 is now RUNNING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/6 is now RUNNING
+15/12/09 22:19:34 INFO client.AppClient$ClientActor: Executor updated: app-20151209221934-0118/7 is now RUNNING
+15/12/09 22:19:34 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45455.
+15/12/09 22:19:34 INFO netty.NettyBlockTransferService: Server created on 45455
+15/12/09 22:19:34 INFO storage.BlockManagerMaster: Trying to register BlockManager
+15/12/09 22:19:34 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.176.92.90:45455 with 8.3 GB RAM, BlockManagerId(driver, 10.176.92.90, 45455)
+15/12/09 22:19:34 INFO storage.BlockManagerMaster: Registered BlockManager
+15/12/09 22:19:34 INFO cluster.SparkDeploySchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+15/12/09 22:19:34 INFO repl.SparkILoop: Created spark context..
+Spark context available as sc.
+15/12/09 22:19:35 INFO hive.HiveContext: Initializing execution hive, version 0.13.1
+15/12/09 22:19:36 INFO cluster.SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@10.176.92.72:35805/user/Executor#-1484749395]) with ID 1
+15/12/09 22:19:36 INFO cluster.SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@10.176.92.77:42763/user/Executor#1563418557]) with ID 5
+15/12/09 22:19:36 INFO cluster.SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@10.176.92.75:41210/user/Executor#-1338843288]) with ID 0
+15/12/09 22:19:36 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.176.92.77:35020 with 8.3 GB RAM, BlockManagerId(5, 10.176.92.77, 35020)
+15/12/09 22:19:36 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.176.92.72:40418 with 8.3 GB RAM, BlockManagerId(1, 10.176.92.72, 40418)
+15/12/09 22:19:36 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.176.92.75:38066 with 8.3 GB RAM, BlockManagerId(0, 10.176.92.75, 38066)
+15/12/09 22:19:36 INFO cluster.SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@10.176.92.78:54351/user/Executor#-1004203037]) with ID 3
+15/12/09 22:19:36 INFO cluster.SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@10.176.92.74:51643/user/Executor#-218725604]) with ID 2
+15/12/09 22:19:36 INFO cluster.SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@10.176.92.79:40911/user/Executor#-2056796548]) with ID 6
+15/12/09 22:19:36 INFO cluster.SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@10.176.92.73:40875/user/Executor#929546979]) with ID 7
+15/12/09 22:19:36 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.176.92.78:59605 with 8.3 GB RAM, BlockManagerId(3, 10.176.92.78, 59605)
+15/12/09 22:19:36 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.176.92.74:57261 with 8.3 GB RAM, BlockManagerId(2, 10.176.92.74, 57261)
+15/12/09 22:19:36 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.176.92.79:53506 with 8.3 GB RAM, BlockManagerId(6, 10.176.92.79, 53506)
+15/12/09 22:19:36 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.176.92.73:58357 with 8.3 GB RAM, BlockManagerId(7, 10.176.92.73, 58357)
+15/12/09 22:19:36 INFO metastore.HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+15/12/09 22:19:36 INFO metastore.ObjectStore: ObjectStore, initialize called
+15/12/09 22:19:37 INFO DataNucleus.Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+15/12/09 22:19:37 INFO DataNucleus.Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+15/12/09 22:19:37 WARN DataNucleus.Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+15/12/09 22:19:37 WARN DataNucleus.Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+15/12/09 22:19:38 INFO cluster.SparkDeploySchedulerBackend: Registered executor: AkkaRpcEndpointRef(Actor[akka.tcp://sparkExecutor@10.176.92.76:34905/user/Executor#-258577122]) with ID 4
+15/12/09 22:19:38 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.176.92.76:43368 with 8.3 GB RAM, BlockManagerId(4, 10.176.92.76, 43368)
+15/12/09 22:19:40 INFO metastore.ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+15/12/09 22:19:40 INFO metastore.MetaStoreDirectSql: MySQL check failed, assuming we are not on mysql: Lexical error at line 1, column 5.  Encountered: "@" (64), after : "".
+15/12/09 22:19:41 INFO DataNucleus.Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+15/12/09 22:19:41 INFO DataNucleus.Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+15/12/09 22:19:45 INFO DataNucleus.Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+15/12/09 22:19:45 INFO DataNucleus.Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+15/12/09 22:19:46 INFO metastore.ObjectStore: Initialized ObjectStore
+15/12/09 22:19:46 WARN metastore.ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 0.13.1aa
+15/12/09 22:19:48 INFO metastore.HiveMetaStore: Added admin role in metastore
+15/12/09 22:19:48 INFO metastore.HiveMetaStore: Added public role in metastore
+15/12/09 22:19:48 INFO metastore.HiveMetaStore: No user is added in admin role, since config is empty
+15/12/09 22:19:48 INFO session.SessionState: No Tez session required at this point. hive.execution.engine=mr.
+15/12/09 22:19:48 INFO repl.SparkILoop: Created sql context (with Hive support)..
+SQL context available as sqlContext.
+Loading env_nb_train_predict_articleid.scala...
+import org.apache.spark.mllib.classification.{NaiveBayes, NaiveBayesModel}
+import org.apache.spark.mllib.linalg.Vectors
+import org.apache.spark.mllib.regression.LabeledPoint
+15/12/09 22:19:54 INFO storage.MemoryStore: ensureFreeSpace(80440) called with curMem=0, maxMem=8890959790
+15/12/09 22:19:54 INFO storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 78.6 KB, free 8.3 GB)
+15/12/09 22:19:54 INFO storage.MemoryStore: ensureFreeSpace(17513) called with curMem=80440, maxMem=8890959790
+15/12/09 22:19:54 INFO storage.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 17.1 KB, free 8.3 GB)
+15/12/09 22:19:54 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.176.92.90:45455 (size: 17.1 KB, free: 8.3 GB)
+15/12/09 22:19:54 INFO spark.SparkContext: Created broadcast 0 from textFile at <console>:24
+tagged_data: org.apache.spark.rdd.RDD[String] = MapPartitionsRDD[1] at textFile at <console>:24
+parsed_tagged_data: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint] = MapPartitionsRDD[2] at map at <console>:26
+15/12/09 22:19:56 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/12/09 22:19:56 INFO spark.SparkContext: Starting job: collect at NaiveBayes.scala:341
+15/12/09 22:19:56 INFO scheduler.DAGScheduler: Registering RDD 3 (map at NaiveBayes.scala:323)
+15/12/09 22:19:56 INFO scheduler.DAGScheduler: Got job 0 (collect at NaiveBayes.scala:341) with 2 output partitions (allowLocal=false)
+15/12/09 22:19:56 INFO scheduler.DAGScheduler: Final stage: ResultStage 1(collect at NaiveBayes.scala:341)
+15/12/09 22:19:56 INFO scheduler.DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+15/12/09 22:19:56 INFO scheduler.DAGScheduler: Missing parents: List(ShuffleMapStage 0)
+15/12/09 22:19:56 INFO scheduler.DAGScheduler: Submitting ShuffleMapStage 0 (MapPartitionsRDD[3] at map at NaiveBayes.scala:323), which has no missing parents
+15/12/09 22:19:56 INFO storage.MemoryStore: ensureFreeSpace(4736) called with curMem=97953, maxMem=8890959790
+15/12/09 22:19:56 INFO storage.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 4.6 KB, free 8.3 GB)
+15/12/09 22:19:56 INFO storage.MemoryStore: ensureFreeSpace(2534) called with curMem=102689, maxMem=8890959790
+15/12/09 22:19:56 INFO storage.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 2.5 KB, free 8.3 GB)
+15/12/09 22:19:56 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.176.92.90:45455 (size: 2.5 KB, free: 8.3 GB)
+15/12/09 22:19:56 INFO spark.SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:874
+15/12/09 22:19:56 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[3] at map at NaiveBayes.scala:323)
+15/12/09 22:19:56 INFO scheduler.TaskSchedulerImpl: Adding task set 0.0 with 2 tasks
+15/12/09 22:19:56 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, 10.176.92.77, ANY, 1415 bytes)
+15/12/09 22:19:56 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, 10.176.92.74, ANY, 1415 bytes)
+15/12/09 22:19:57 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.176.92.77:35020 (size: 2.5 KB, free: 8.3 GB)
+15/12/09 22:19:57 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.176.92.74:57261 (size: 2.5 KB, free: 8.3 GB)
+15/12/09 22:19:57 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.176.92.77:35020 (size: 17.1 KB, free: 8.3 GB)
+15/12/09 22:19:57 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.176.92.74:57261 (size: 17.1 KB, free: 8.3 GB)
+15/12/09 22:19:58 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1340 ms on 10.176.92.77 (1/2)
+15/12/09 22:19:58 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 1377 ms on 10.176.92.74 (2/2)
+15/12/09 22:19:58 INFO scheduler.DAGScheduler: ShuffleMapStage 0 (map at NaiveBayes.scala:323) finished in 1.403 s
+15/12/09 22:19:58 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+15/12/09 22:19:58 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/12/09 22:19:58 INFO scheduler.DAGScheduler: running: Set()
+15/12/09 22:19:58 INFO scheduler.DAGScheduler: waiting: Set(ResultStage 1)
+15/12/09 22:19:58 INFO scheduler.DAGScheduler: failed: Set()
+15/12/09 22:19:58 INFO scheduler.DAGScheduler: Missing parents for ResultStage 1: List()
+15/12/09 22:19:58 INFO scheduler.DAGScheduler: Submitting ResultStage 1 (ShuffledRDD[4] at combineByKey at NaiveBayes.scala:323), which is now runnable
+15/12/09 22:19:58 INFO storage.MemoryStore: ensureFreeSpace(2896) called with curMem=105223, maxMem=8890959790
+15/12/09 22:19:58 INFO storage.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 2.8 KB, free 8.3 GB)
+15/12/09 22:19:58 INFO storage.MemoryStore: ensureFreeSpace(1558) called with curMem=108119, maxMem=8890959790
+15/12/09 22:19:58 INFO storage.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 1558.0 B, free 8.3 GB)
+15/12/09 22:19:58 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.176.92.90:45455 (size: 1558.0 B, free: 8.3 GB)
+15/12/09 22:19:58 INFO spark.SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:874
+15/12/09 22:19:58 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ResultStage 1 (ShuffledRDD[4] at combineByKey at NaiveBayes.scala:323)
+15/12/09 22:19:58 INFO scheduler.TaskSchedulerImpl: Adding task set 1.0 with 2 tasks
+15/12/09 22:19:58 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 1.0 (TID 2, 10.176.92.79, PROCESS_LOCAL, 1165 bytes)
+15/12/09 22:19:58 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 1.0 (TID 3, 10.176.92.74, PROCESS_LOCAL, 1165 bytes)
+15/12/09 22:19:58 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.176.92.74:57261 (size: 1558.0 B, free: 8.3 GB)
+15/12/09 22:19:58 INFO spark.MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 10.176.92.74:51643
+15/12/09 22:19:58 INFO spark.MapOutputTrackerMaster: Size of output statuses for shuffle 0 is 160 bytes
+15/12/09 22:19:58 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 1.0 (TID 3) in 97 ms on 10.176.92.74 (1/2)
+15/12/09 22:19:58 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.176.92.79:53506 (size: 1558.0 B, free: 8.3 GB)
+15/12/09 22:19:58 INFO spark.MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 10.176.92.79:40911
+15/12/09 22:19:58 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 1.0 (TID 2) in 427 ms on 10.176.92.79 (2/2)
+15/12/09 22:19:58 INFO scheduler.DAGScheduler: ResultStage 1 (collect at NaiveBayes.scala:341) finished in 0.427 s
+15/12/09 22:19:58 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool
+15/12/09 22:19:58 INFO scheduler.DAGScheduler: Job 0 finished: collect at NaiveBayes.scala:341, took 1.984204 s
+modelSony: org.apache.spark.mllib.classification.NaiveBayesModel = org.apache.spark.mllib.classification.NaiveBayesModel@5087e89b
+15/12/09 22:19:59 INFO storage.MemoryStore: ensureFreeSpace(183352) called with curMem=109677, maxMem=8890959790
+15/12/09 22:19:59 INFO storage.MemoryStore: Block broadcast_3 stored as values in memory (estimated size 179.1 KB, free 8.3 GB)
+15/12/09 22:19:59 INFO storage.MemoryStore: ensureFreeSpace(17513) called with curMem=293029, maxMem=8890959790
+15/12/09 22:19:59 INFO storage.MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 17.1 KB, free 8.3 GB)
+15/12/09 22:19:59 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.176.92.90:45455 (size: 17.1 KB, free: 8.3 GB)
+15/12/09 22:19:59 INFO spark.SparkContext: Created broadcast 3 from textFile at <console>:24
+untagged_data: org.apache.spark.rdd.RDD[String] = MapPartitionsRDD[6] at textFile at <console>:24
+parsed_untagged_data: org.apache.spark.rdd.RDD[(String, org.apache.spark.mllib.linalg.Vector)] = MapPartitionsRDD[7] at map at <console>:26
+articleAndScore: org.apache.spark.rdd.RDD[(String, Double)] = MapPartitionsRDD[8] at mapValues at <console>:34
+15/12/09 22:20:01 INFO Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+15/12/09 22:20:01 INFO Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+15/12/09 22:20:01 INFO Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+15/12/09 22:20:01 INFO Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+15/12/09 22:20:01 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+15/12/09 22:20:01 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/12/09 22:20:02 INFO spark.SparkContext: Starting job: saveAsTextFile at <console>:37
+15/12/09 22:20:02 INFO scheduler.DAGScheduler: Got job 1 (saveAsTextFile at <console>:37) with 2 output partitions (allowLocal=false)
+15/12/09 22:20:02 INFO scheduler.DAGScheduler: Final stage: ResultStage 2(saveAsTextFile at <console>:37)
+15/12/09 22:20:02 INFO scheduler.DAGScheduler: Parents of final stage: List()
+15/12/09 22:20:02 INFO scheduler.DAGScheduler: Missing parents: List()
+15/12/09 22:20:02 INFO scheduler.DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[9] at saveAsTextFile at <console>:37), which has no missing parents
+15/12/09 22:20:02 INFO storage.MemoryStore: ensureFreeSpace(139520) called with curMem=310542, maxMem=8890959790
+15/12/09 22:20:02 INFO storage.MemoryStore: Block broadcast_4 stored as values in memory (estimated size 136.3 KB, free 8.3 GB)
+15/12/09 22:20:02 INFO storage.MemoryStore: ensureFreeSpace(46346) called with curMem=450062, maxMem=8890959790
+15/12/09 22:20:02 INFO storage.MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 45.3 KB, free 8.3 GB)
+15/12/09 22:20:02 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.176.92.90:45455 (size: 45.3 KB, free: 8.3 GB)
+15/12/09 22:20:02 INFO spark.SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:874
+15/12/09 22:20:02 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ResultStage 2 (MapPartitionsRDD[9] at saveAsTextFile at <console>:37)
+15/12/09 22:20:02 INFO scheduler.TaskSchedulerImpl: Adding task set 2.0 with 2 tasks
+15/12/09 22:20:02 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 2.0 (TID 4, 10.176.92.74, ANY, 1449 bytes)
+15/12/09 22:20:02 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 2.0 (TID 5, 10.176.92.78, ANY, 1449 bytes)
+15/12/09 22:20:02 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.176.92.74:57261 (size: 45.3 KB, free: 8.3 GB)
+15/12/09 22:20:02 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.176.92.78:59605 (size: 45.3 KB, free: 8.3 GB)
+15/12/09 22:20:02 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.176.92.74:57261 (size: 17.1 KB, free: 8.3 GB)
+15/12/09 22:20:03 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 2.0 (TID 4) in 670 ms on 10.176.92.74 (1/2)
+15/12/09 22:20:03 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.176.92.78:59605 (size: 17.1 KB, free: 8.3 GB)
+15/12/09 22:20:04 INFO scheduler.DAGScheduler: ResultStage 2 (saveAsTextFile at <console>:37) finished in 1.671 s
+15/12/09 22:20:04 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 2.0 (TID 5) in 1669 ms on 10.176.92.78 (2/2)
+15/12/09 22:20:04 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool
+15/12/09 22:20:04 INFO scheduler.DAGScheduler: Job 1 finished: saveAsTextFile at <console>:37, took 2.001183 s
+warning: there were 1 deprecation warning(s); re-run with -deprecation for details
+15/12/09 22:20:04 INFO spark.SparkContext: Invoking stop() from shutdown hook
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/api,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/static,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+15/12/09 22:20:04 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs,null}
+15/12/09 22:20:04 INFO ui.SparkUI: Stopped Spark web UI at http://10.176.92.90:4043
+15/12/09 22:20:04 INFO scheduler.DAGScheduler: Stopping DAGScheduler
+15/12/09 22:20:04 INFO cluster.SparkDeploySchedulerBackend: Shutting down all executors
+15/12/09 22:20:04 INFO cluster.SparkDeploySchedulerBackend: Asking each executor to shut down
+15/12/09 22:20:04 INFO spark.MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+15/12/09 22:20:04 INFO util.Utils: path = /tmp/spark-f3e24126-81c8-4ce8-bfea-d2ef4b2ce27e/blockmgr-555234c9-39e5-48b0-bfb7-5cafa0a69aa8, already present as root for deletion.
+15/12/09 22:20:04 INFO storage.MemoryStore: MemoryStore cleared
+15/12/09 22:20:04 INFO storage.BlockManager: BlockManager stopped
+15/12/09 22:20:04 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+15/12/09 22:20:04 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+15/12/09 22:20:04 INFO spark.SparkContext: Successfully stopped SparkContext
+15/12/09 22:20:04 INFO util.Utils: Shutdown hook called
+15/12/09 22:20:04 INFO util.Utils: Deleting directory /tmp/spark-f3e24126-81c8-4ce8-bfea-d2ef4b2ce27e
+15/12/09 22:20:04 INFO util.Utils: Deleting directory /tmp/spark-f7f6ed44-f661-4323-a622-ab93ac8b8252
+15/12/09 22:20:04 INFO remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+15/12/09 22:20:04 INFO remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+15/12/09 22:20:04 INFO util.Utils: Deleting directory /tmp/spark-3e0a34d4-f23b-4443-8f82-7905efc473f9
+15/12/09 22:20:04 INFO remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+CountArticles.class
+rm: cannot remove `nb_prediction/part*': No such file or directory
+rm: cannot remove `nb_prediction/output/*': No such file or directory
+Reading part-00000
+Reading part-00001
+Output CSV file is saved in nb_prediction/output/
+Success
